@@ -1,0 +1,9 @@
+public class Triangulo {
+	double Altura;  //atributos da classe
+	double Base;
+	double Area;
+	
+	void CalcularArea(double Base, double Altura) {
+		Area = Base*Altura/2; // calculo
+ }
+}
