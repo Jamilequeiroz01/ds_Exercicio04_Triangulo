@@ -1,0 +1,11 @@
+public class TrianguloPrincipal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Triangulo triangulo1 = new Triangulo ();//instanciando
+		triangulo1.CalcularArea(10, 30); //calculo
+		     //apresentando valor
+		System.out.println("Triangulo 1 depois de calcular a area " +triangulo1.Area);
+	}
+
+}
